@@ -1,0 +1,27 @@
+body {
+  background-image: radial-gradient(ellipse closest-side at 50% 50%, #393e44, #36383b 25%, #343233);
+}
+
+div {
+  background-color: #584b4f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  overflow: hidden;
+}
+li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+li {
+  display: inline-block;
+  float: left;
+}
