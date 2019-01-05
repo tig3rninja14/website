@@ -3,25 +3,21 @@ body {
 }
 
 div {
-  background-color: #584b4f;
+  background-color: #585550;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  text-align: center;
-  overflow: hidden;
+#linklist {
+  column-count:5; 
 }
-li a{
+#linklist a {
   display: block;
   text-decoration: none;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
+  text-align: center;
+  color: #E8A991;
+  transition: color 0.3s linear;
+  font-size: 30px;
+  padding: 25px;
 }
-li {
-  display: inline-block;
-  float: left;
+#linklist a:hover {
+  color: #E1D6FF;
 }
