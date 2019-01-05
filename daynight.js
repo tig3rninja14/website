@@ -1,20 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var checkbox = document.querySelector('input[type="checkbox"]');
-
-  checkbox.addEventListener('change', function () {
-    if (checkbox.checked) {
-      document.body.style.backgroundColor = "#E6E6E6";
-      document.getElementById("title").style.color = "#1A1A1A";
-      document.getElementById("BodyText").style.color = "#1A1A1A";
-
-      console.log('Checked');
-    } else {
-      document.body.style.backgroundColor = "#1A1A1A";
-      document.getElementById("title").style.color = "#E6E6E6";
-      document.getElementById("BodyText").style.color = "#E6E6E6";
-      
-
-      console.log('Not checked');
-    }
-  });
-});
+function getStylesheet() {
+  var currentTime = new Date().getHours();
+  console.log(currentTime);
+  if (6 <= currentTime&&currentTime < 18) {
+    document.write("<link rel='stylesheet' href='day.css' type='text/css'>");
+  } else {
+    document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+  }
+}
+getStylesheet();
