@@ -1,5 +1,8 @@
 body {
   background-image: radial-gradient(ellipse closest-side at 50% 50%, #393e44, #36383b 25%, #343233);
+  color: #e6e6e6;
+  font-size: 24px;
+  text-align: center;
 }
 
 div {
@@ -7,7 +10,7 @@ div {
 }
 
 #linklist {
-  column-count:5; 
+  column-count:5;
 }
 #linklist a {
   display: block;
