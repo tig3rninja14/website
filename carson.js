@@ -1,26 +1,16 @@
-var pages = ["index", "services", "about", "contact"];
-var startingPage;
-var newPage = "NONE";
 
-for (var i = 0; i < pages.length; i++) {
-	if (window.location.href.indexOf(pages[i]) != -1) {
-		startingPage = pages[i];
-	}
-}
+var easterEgg = [];
+var answer = [70, 85, 67, 75, 89, 79, 85, 67, 65, 82, 83, 79, 78, 13];
 
-var x = document.getElementsByTagName('a');
+document.addEventListener('keydown', function(event){
+	easterEgg.push(event.keyCode);
+    console.log(easterEgg);
 
-for (var i = 0; i < x.length; i++) {
-    x[i].addEventListener('click', checker);
-}
+    if (JSON.stringify(easterEgg) === JSON.stringify(answer)) {
+    	alert("YOU FUCKING FOUND THIS FUCKING EASTER EGG GOOD FUCKING JOB YOU DUMB FUCKING FUCKER! :) ENJOY $0 OFF OF YOUR NEXT ORDER.");
+    }
 
-function checker() {
-	for (var i = 0; i < pages.length; i++) {
-		if (this.href.indexOf(pages[i]) != -1) {
-			newPage = pages[i];
-		}
-	}
-	if (startingPage === newPage) {
-		alert("YOU ARE ALREADY FUCKING ON THAT PAGE YOU FUCKING DUMB FUCK-TARD");
-	}
-}
+    if (event.keyCode === 13) {
+    	easterEgg = [];
+    }
+} );
