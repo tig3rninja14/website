@@ -1,5 +1,9 @@
 body {
   background-color: #1A1A1A;
+  background-image: radial-gradient(ellipse closest-side at 50% 50%, #393e44, #36383b 25%, #343233);
+  color: #e6e6e6;
+  font-size: 24px;
+  text-align: center;
 }
 
 #title {
@@ -32,6 +36,7 @@ body {
   padding: 30px;
 }
 #linklist a:hover {
+
   color: #FFFFFF;
 }
 
@@ -94,3 +99,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+=======
+  color: #E1D6FF;
+}
+
