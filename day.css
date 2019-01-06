@@ -41,6 +41,7 @@ body {
 }
 #quote {
   color: #1A1A1A;
+  letter-spacing: 16px;
   font-size: 44px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
