@@ -1,5 +1,7 @@
 body {
   background-color: #1A1A1A;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #title {
@@ -52,4 +54,16 @@ body {
     1px -1px 0 #f76e23,
     -1px 1px 0 #f76e23,
     1px 1px 0 #f76e23;
+}
+#more {
+  letter-spacing: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: Center;
+  font-size: 64px;
+  padding-top: 100px;
+  text-shadow:
+  -1px -1px 0 #f76e23,
+  1px -1px 0 #f76e23,
+  -1px 1px 0 #f76e23,
+  1px 1px 0 #f76e23
 }
