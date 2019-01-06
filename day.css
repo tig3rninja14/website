@@ -86,3 +86,10 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+#portait {
+  background-size: cover;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
