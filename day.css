@@ -27,11 +27,7 @@ body {
   -1px -1px 0 #e6ac00,
   1px -1px 0 #e6ac00,
   -1px 1px 0 #e6ac00,
-  1px 1px 0 #e6ac00,
-  -2px -2px 0 #f0f5f5,
-  2px -2px 0 #f0f5f5,
-  -2px 2px 0 #f0f5f5,
-  2px 2px 0 #f0f5f5;
+  1px 1px 0 #e6ac00;
 }
 
 #linklist {
@@ -55,13 +51,27 @@ body {
 #quote {
   color: #1A1A1A;
   letter-spacing: 16px;
-  font-size: 44px;
+  font-size: 108px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 140px;
   text-shadow:
     -1px -1px 0 #f76e23,
     1px -1px 0 #f76e23,
     -1px 1px 0 #f76e23,
     1px 1px 0 #f76e23;
+}
+
+
+#more {
+  letter-spacing: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: Center;
+  font-size: 64px;
+  padding-top: 100px;
+  text-shadow:
+  -1px -1px 0 #f76e23,
+  1px -1px 0 #f76e23,
+  -1px 1px 0 #f76e23,
+  1px 1px 0 #f76e23
 }
