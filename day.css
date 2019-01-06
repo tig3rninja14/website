@@ -1,5 +1,7 @@
 body {
   background-color: #E6E6E6;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #title {
@@ -54,7 +56,8 @@ body {
   font-size: 108px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-shadow:
     -1px -1px 0 #f76e23,
     1px -1px 0 #f76e23,
@@ -68,10 +71,16 @@ body {
   font-family: 'Raleway', sans-serif;
   text-align: Center;
   font-size: 64px;
-  padding-top: 100px;
+  padding-top: 0px;
   text-shadow:
   -1px -1px 0 #f76e23,
   1px -1px 0 #f76e23,
   -1px 1px 0 #f76e23,
   1px 1px 0 #f76e23
+}
+
+#book {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
