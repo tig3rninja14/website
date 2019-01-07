@@ -8,12 +8,16 @@ body {
   color: #FFFFFF;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 72px;
+  font-size: 24px;
   text-shadow:
     -1px -1px 0 #f76e23,
     1px -1px 0 #f76e23,
     -1px 1px 0 #f76e23,
-    1px 1px 0 #f76e23;
+    1px 1px 0 #f76e23,
+    -2px -2px 0 #1A1A1A,
+    2px -2px 0 #1A1A1A,
+    -2px 2px 0 #1A1A1A,
+    2px 2px 0 #1A1A1A;
 }
 
 #BodyText {
@@ -64,6 +68,7 @@ body {
     1px 1px 0 #f76e23;
 }
 #more {
+  color: #E6E6E6;
   letter-spacing: 16px;
   font-family: 'Raleway', sans-serif;
   text-align: Center;
@@ -76,7 +81,7 @@ body {
   -1px -1px 0 #f76e23,
   1px -1px 0 #f76e23,
   -1px 1px 0 #f76e23,
-  1px 1px 0 #f76e23
+  1px 1px 0 #f76e23;
 }
 
 #book {
