@@ -76,7 +76,27 @@ a:hover {
 }
 
 
+/*----------------*/
+/*---Headline-----*/
+/*----------------*/
+#headline {
+	display: flex;
+	height: 700px;
+	outline: groove;
+	outline-color: darkorange;
+	padding: 1%;
+	justify-content: center;
+	background-image: url("images/futuristic.jpg");
+	background-size: cover;
+	background-position: center;
+}
 
+#headline-text {
+	color: white;
+	font-size: 65px;
+	text-shadow: 1px 1px 1px darkorange;
+	padding-top: 35px;
+}
 
 
 
