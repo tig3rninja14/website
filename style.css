@@ -59,8 +59,20 @@ a:hover {
 }
 
 .nav-header {
-	color: var(--light-accent-color);
+	color: white;
 	font-size: 28px;
+	text-shadow: 1px 1px darkorange;
+}
+
+.nav-subheader {
+	color: darkorange;
+	font-size: 22px;
+	padding: 10px;
+	text-shadow: 1px 1px black;
+}
+
+#subNav {
+	display: flex;
 }
 
 
