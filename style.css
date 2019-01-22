@@ -1,96 +1,73 @@
-body {
-  background-color: #1A1A1A;
+/*----------------*/
+/*---Variables----*/
+/*----------------*/
+
+:root {
+	--main-accent-color: #42a5f5;
+	--light-accent-color: #D3D3D3;
+	--dark-accent-color: #1E1E1E;
 }
 
-#title {
-  color: #FFFFFF;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
+
+/*----------------*/
+/*-----Resets-----*/
+/*----------------*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	box-sizing: border-box;
 }
 
-#BodyText {
-  color: #FFFFFF;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+/*----------------*/
+/*-----Global-----*/
+/*----------------*/
+body{
+	background-color: var(--dark-accent-color);
 }
 
-#linklist {
-  font-family: 'Raleway', sans-serif;
-  column-count:5;
-  background-color: #111111;
-  border: 3px solid #f76e23
-}
-#linklist a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: #f76e23;
-  transition: color 0.3s linear;
-  font-size: 25px;
-  padding: 30px;
-}
-#linklist a:hover {
-  color: #FFFFFF;
+a {
+	text-decoration: none;
 }
 
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  float: right;
+a:hover {
+	cursor: pointer;
 }
 
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+.container {
+	width: 80%;
+	margin: 0 auto;	
 }
 
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #CCCCCC;
-  -webkit-transition: .4s;
-  transition: .4s;
+
+/*----------------*/
+/*-----NavBar-----*/
+/*----------------*/
+
+#nav {
+	height: 60px;
+	background: var(--main-accent-color);
+	margin-bottom: 25px;
 }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+#navContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
 }
 
-input:checked + .slider {
-  background-color: #1A1A1A;
+.nav-header {
+	color: var(--light-accent-color);
+	font-size: 28px;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
 
-.slider.round:before {
-  border-radius: 50%;
-}
+
+
+
+
+
+
