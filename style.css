@@ -98,9 +98,9 @@ a:hover {
 
 #headline:hover .overlay{
 	display: absolute;
-	margin-top: 5%;
-	height: 65%;
-	transition: .5s;
+	margin: 1% auto;
+	height: 100%;
+	
 	opacity: 1;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 	margin-top: -150px;
 	min-height: 100%;
  	width: 100%;
-	content: '';
+	
 	opacity: 0;
 	z-index: 5;
 	justify-content: center;
