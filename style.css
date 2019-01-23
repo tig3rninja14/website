@@ -40,6 +40,12 @@ a:hover {
 	margin: 0 auto;	
 }
 
+.header {
+	color: white;
+	font-size: 2vw;
+	text-shadow: .03em .03em darkorange;
+}
+
 
 /*----------------*/
 /*-----NavBar-----*/
@@ -57,12 +63,6 @@ a:hover {
 	height: 100%;
 	align-items: center;
 	justify-content: space-between;
-}
-
-.nav-header {
-	color: white;
-	font-size: 2vw;
-	text-shadow: .03em .03em darkorange;
 }
 
 .nav-subheader {
