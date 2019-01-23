@@ -81,21 +81,43 @@ a:hover {
 /*----------------*/
 #headline {
 	display: flex;
-	height: 700px;
+	height: 100%;
 	outline: groove;
 	outline-color: darkorange;
-	padding: 1%;
+	padding: 3%;
 	justify-content: center;
 	background-image: url("images/futuristic.jpg");
 	background-size: cover;
 	background-position: center;
+	margin-top: 5%;
+	align-items: center;
+	padding-top: 1.5%;
 }
+
+.banner::after {
+	display: -webkit-inline-box;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);	
+	margin-top: -150px;
+	margin-bottom: 16px;
+	margin-left: 10%;
+	height: 150px;
+ 	width: 80.05%;
+ 	content: '';
+}
+
+.banner {
+	max-width: 100%; 
+  	width: 800px;
+  	margin: auto;
+}
+
 
 #headline-text {
 	color: white;
 	font-size: 65px;
 	text-shadow: 1px 1px 1px darkorange;
-	padding-top: 35px;
+	margin-top: 2%;
 }
 
 
