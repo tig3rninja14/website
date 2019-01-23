@@ -80,8 +80,8 @@ a:hover {
 /*---Headline-----*/
 /*----------------*/
 #headline {
+	position: relative;
 	display: flex;
-	height: 100%;
 	outline: groove;
 	outline-color: darkorange;
 	padding: 3%;
@@ -92,18 +92,28 @@ a:hover {
 	margin-top: 5%;
 	align-items: center;
 	padding-top: 1.5%;
+	opacity: 1;
 }
 
-.banner::after {
-	display: -webkit-inline-box;
-	position: relative;
+#headline:hover .overlay{
+	display: absolute;
+	margin-top: 5%;
+	height: 65%;
+	transition: 2s ease;
+	opacity: 1;
+}
+
+#headline .overlay{
+	position: absolute;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);	
 	margin-top: -150px;
 	margin-bottom: 16px;
-	margin-left: 10%;
 	height: 150px;
- 	width: 80.05%;
- 	content: '';
+ 	width: 95%;
+	content: '';
+	opacity: 0;
+	z-index: 5;
+	justify-content: center;
 }
 
 
@@ -113,6 +123,7 @@ a:hover {
 	font-size: 65px;
 	text-shadow: 1px 1px 1px darkorange;
 	margin-top: 2%;
+	z-index: 3;
 }
 
 
