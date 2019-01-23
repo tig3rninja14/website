@@ -23,6 +23,7 @@
 /*-----Global-----*/
 /*----------------*/
 body{
+	min-height: 100%;
 	background-color: var(--dark-accent-color);
 }
 
@@ -99,17 +100,17 @@ a:hover {
 	display: absolute;
 	margin-top: 5%;
 	height: 65%;
-	transition: 2s ease;
+	transition: .5s;
 	opacity: 1;
 }
 
 #headline .overlay{
 	position: absolute;
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);	
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+	margin: 0 auto;	
 	margin-top: -150px;
-	margin-bottom: 16px;
-	height: 150px;
- 	width: 95%;
+	min-height: 100%;
+ 	width: 100%;
 	content: '';
 	opacity: 0;
 	z-index: 5;
