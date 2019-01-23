@@ -80,6 +80,7 @@ a:hover {
 /*----------------*/
 /*---Headline-----*/
 /*----------------*/
+
 #headline {
 	position: relative;
 	display: flex;
@@ -94,13 +95,13 @@ a:hover {
 	align-items: center;
 	padding-top: 1.5%;
 	opacity: 1;
+	
 }
 
 #headline:hover .overlay{
 	display: absolute;
 	margin: 1% auto;
 	height: 100%;
-	
 	opacity: 1;
 }
 
@@ -117,18 +118,11 @@ a:hover {
 	justify-content: center;
 }
 
-
-
 #headline-text {
 	color: white;
-	font-size: 65px;
-	text-shadow: 1px 1px 1px darkorange;
+	font-size: 4vw;
+	text-shadow: 1vw 1vw 1vw darkorange;
 	margin-top: 2%;
 	z-index: 3;
 }
-
-
-
-
-
 
