@@ -109,7 +109,7 @@ a:hover {
 	position: absolute;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
 	margin: 0 auto;	
-	margin-top: -150px;
+	margin-top: -35%;
 	min-height: 100%;
  	width: 100%;
 	
@@ -121,7 +121,7 @@ a:hover {
 #headline-text {
 	color: white;
 	font-size: 4vw;
-	text-shadow: 1vw 1vw 1vw darkorange;
+	text-shadow: .03em .03em .01em darkorange;
 	margin-top: 2%;
 	z-index: 3;
 }
