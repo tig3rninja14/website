@@ -60,7 +60,7 @@ a:hover {
 #navContainer {
 	display: flex;
 	flex-direction: row;
-	height: 100%;
+	height: 5vw;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -93,6 +93,7 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	margin-top: 5%;
+	margin-bottom: 5%;
 	align-items: center;
 	padding-top: 1.5%;
 	opacity: 1;
@@ -129,7 +130,15 @@ a:hover {
 }
 
 
+/*----------------*/
+/*---Motto-Text---*/
+/*----------------*/
 
+#body-row {
+	display: flex;
+	justify-content: center;
+	margin: 5% 10%;
+}
 
 
 
