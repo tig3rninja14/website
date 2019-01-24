@@ -1,0 +1,144 @@
+/*----------------*/
+/*---Variables----*/
+/*----------------*/
+
+:root {
+	--main-accent-color: #42a5f5;
+	--light-accent-color: #D3D3D3;
+	--dark-accent-color: #1E1E1E;
+}
+
+
+/*----------------*/
+/*-----Resets-----*/
+/*----------------*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	box-sizing: border-box;
+}
+
+/*----------------*/
+/*-----Global-----*/
+/*----------------*/
+body{
+	min-height: 100%;
+	background-color: var(--dark-accent-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.header {
+	color: white;
+	font-size: 2vw;
+	text-shadow: .03em .03em darkorange;
+}
+
+
+/*----------------*/
+/*-----NavBar-----*/
+/*----------------*/
+
+#nav {
+	height: 40%;
+	background: var(--main-accent-color);
+	margin-bottom: 5%;
+}
+
+#navContainer {
+	display: flex;
+	flex-direction: row;
+	height: 5vw;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-subheader {
+	color: darkorange;
+	font-size: 1.75vw;
+	text-shadow: .03em .03em black;
+}
+
+#subNav {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/*----------------*/
+/*---Headline-----*/
+/*----------------*/
+
+#headline {
+	position: relative;
+	display: flex;
+	outline: groove;
+	outline-color: darkorange;
+	padding: 3%;
+	justify-content: center;
+	background-image: url("images/futuristic.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	align-items: center;
+	padding-top: 1.5%;
+	opacity: 1;
+	
+}
+
+#headline:hover .overlay{
+	display: absolute;
+	margin: 1% auto;
+	height: 100%;
+	opacity: 1;
+	transition: background 0.2s ease, padding 0.8s linear;
+}
+
+#headline .overlay{
+	position: absolute;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+	margin: 0 auto;	
+	margin-top: -35%;
+	min-height: 100%;
+ 	width: 100%;
+	
+	opacity: 0;
+	z-index: 5;
+	justify-content: center;
+}
+
+#headline-text {
+	color: white;
+	font-size: 4vw;
+	text-shadow: .03em .03em .01em darkorange;
+	margin-top: 2%;
+	z-index: 3;
+}
+
+
+/*----------------*/
+/*---Motto-Text---*/
+/*----------------*/
+
+#body-row {
+	display: flex;
+	justify-content: center;
+	margin: 5% 10%;
+}
+
+
+
