@@ -46,6 +46,15 @@ a:hover {
 	text-shadow: .03em .03em darkorange;
 }
 
+#linkOverlay {
+	margin: 5% 5%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
 
 /*----------------*/
 /*-----NavBar-----*/
@@ -55,6 +64,9 @@ a:hover {
 	height: 40%;
 	background: var(--main-accent-color);
 	margin-bottom: 5%;
+	border-style: solid;
+	border-color: darkorange;
+	border-radius: .5em;
 }
 
 #navContainer {
@@ -85,8 +97,10 @@ a:hover {
 #headline {
 	position: relative;
 	display: flex;
-	outline: groove;
-	outline-color: darkorange;
+	border-style: solid;
+	border-color: darkorange;
+	border-width: .25em;
+	border-radius: .5em;
 	padding: 3%;
 	justify-content: center;
 	background-image: url("images/futuristic.jpg");
@@ -135,10 +149,42 @@ a:hover {
 /*----------------*/
 
 #body-row {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	margin: 5% 10%;
+	letter-spacing: .2vw;
+}
+#attn-getter {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: 0 1.5%;
 }
 
 
+/*----------------*/
+/*---Icon-Boxes---*/
+/*----------------*/
+
+
+#iconBoxContainer {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	margin: 5%;
+	padding: 5vw 8vw;
+	width: 30%;
+	position: relative;
+	border-style: inset;
+	border-width: .5vw;
+	border-color: darkorange;
+	border-radius: 1em;
+}
 
